@@ -1,0 +1,30 @@
+
+// .bgLight {
+//     background-color: varibales.$VeryLightGray;
+// }
+// .bgDark {
+//     background-color: varibales.$VeryDarkBlueMode;
+// }
+.box {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+.bottom {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.details {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    cursor: pointer;
+}

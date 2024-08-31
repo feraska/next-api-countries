@@ -1,0 +1,20 @@
+
+
+
+    .items {
+        display: grid;
+        grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+        gap: 20px;
+    }
+
+
+
+
+// .bgLight {
+//     background-color: varibales.$VeryLightGray !important;
+//     color: varibales.$VeryDarkBlueMode !important;
+// }
+// .bgDark {
+//     background-color: varibales.$VeryDarkBlueMode !important;
+//     color: varibales.$VeryLightGray !important;
+// }

@@ -1,0 +1,29 @@
+
+// .boxShadowLight {
+//     box-shadow: 1px 1px 2px varibales.$VeryLightGray;
+// }
+// .boxShadowDark {
+//     box-shadow: 1px 1px 2px varibales.$VeryDarkBlueMode;
+// }
+
+.header {
+    
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    background-color: var(--elementColor);
+    color: var(--textColor);
+    section {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        label:nth-child(2) {
+            cursor: pointer;
+        }
+        label:nth-child(1) {
+            font-weight: 800;
+        }
+    }
+}

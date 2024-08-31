@@ -1,0 +1,37 @@
+ .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .search {
+        display: flex;
+        gap: 5px;
+        align-items: center;
+        input {
+            border: none;
+            outline: none;
+            background-color: transparent;
+            color: var(--inputColor);
+           
+            &::placeholder {
+               color: var(--textColor);
+            }
+        }
+        img {
+            width: 25px;
+            height: 25px;
+          
+        }
+    }
+    .select {
+        
+        padding-left: 15px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-right: 15px;
+        outline: none;
+        border: none;
+        background-color: var(--elementColor);
+        color: var(--textColor);
+        text-transform: capitalize;
+    }
+}
